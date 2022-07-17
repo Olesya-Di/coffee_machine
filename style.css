@@ -1,0 +1,81 @@
+.coffee-list {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.coffee-item {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: calc(75px / 2);
+  margin: 15px;
+}
+
+.coffee-item:hover {
+  background-color: rgba(50, 50, 50, 0.7);
+}
+
+.coffee-item img {
+  background-color: white;
+  border-radius: 50%;
+  height: 75px;
+}
+
+.coffee-item span {
+  color: white;
+  margin-left: 30px;
+}
+
+.coffee-oper {
+  background-color: lightgrey;
+  padding: 15px;
+}
+
+.display {
+  background-color: lightblue;
+  border: 2px solid darkgreen;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.cup {
+  display: none;
+  opacity: 0;
+}
+
+.cup img {
+  width: 100%;
+}
+
+.atm img {
+  width: 100%;
+}
+
+.change-box {
+  position: relative;
+  background: gray;
+  border: 2px solid black;
+  min-height: 100px;
+}
+
+.money img {
+  transition: transform 200ms ease-in-out;
+  width: 20%;
+}
+
+/*контейнер для исчезновения купюры*/
+
+.cash-catcher {
+  position: absolute;
+  width: 75%;
+  height: 45%;
+  margin-left: 10px;
+  margin-top: 25px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: black;
+}
